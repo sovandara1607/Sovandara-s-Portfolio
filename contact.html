@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sovandara Rith</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="casestudy.html">Case Study</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 class="contact-main-title">Contact Me</h1>
+                <p class="contact-subtitle">Any question or remarks? Just write us a message!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-info-panel">
+                    <div class="contact-info-content">
+                        <h2>Contact Information</h2>
+                        <p>Say something to start a live chat!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+855 99 944 923</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>rithsovandara83@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Phnom Penh, Cambodia</span>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://github.com/sovandara-rith" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                           
+                            <a href="mailto:rithsovandara83@gmail.com" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-decoration">
+                        <div class="decoration-circle circle-1"></div>
+                        <div class="decoration-circle circle-2"></div>
+                        <div class="decoration-circle circle-3"></div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-panel">
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label>Select Subject?</label>
+                            <div class="radio-group">
+                                <label class="radio-option">
+                                    <input type="radio" name="subject" value="general" checked>
+                                    <span class="radio-custom"></span>
+                                    General Inquiry
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="subject" value="project">
+                                    <span class="radio-custom"></span>
+                                    Project Inquiry
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="subject" value="collaboration">
+                                    <span class="radio-custom"></span>
+                                    Collaboration
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="subject" value="other">
+                                    <span class="radio-custom"></span>
+                                    Other
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Contact Section -->
+    <section class="additional-contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="contact-description">
+                    I'm currently looking for new opportunities that allow me to continue learning and grow. 
+                    Whether you're looking to collaborate on a project, need consultation on UX/UI design, 
+                    or just want to connect, feel free to reach out!
+                </p>
+                <div class="contact-cta">
+                    <a href="mailto:rithsovandara83@gmail.com" class="btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Email Me Directly
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sovandara Rith Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
